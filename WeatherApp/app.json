@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pourya90.WeatherApp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pourya90.WeatherApp"
     },
     "web": {
       "bundler": "metro",
@@ -45,9 +47,7 @@
         "projectId": "67e536c0-8fd5-4c1d-af48-773726bba434"
       }
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
+    "runtimeVersion": "1.0.0",
     "updates": {
       "url": "https://u.expo.dev/67e536c0-8fd5-4c1d-af48-773726bba434"
     }
